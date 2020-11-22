@@ -1,0 +1,215 @@
+:root {
+    --color-text: #757575;
+    --color-title: #212121;
+    --color-focus: #2196F3;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+   }
+
+/* =============== HEADER ===============*/
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+}
+
+.logo-first-part {
+    color: var(--color-focus);
+}
+
+.navigation-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--color-title);
+}
+
+.current,
+.navigation-list-item:hover,
+.navigation-list-item:focus {
+    color: var(--color-focus);
+}
+
+.contact-information{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+
+.contact-information:hover,
+.contact-information:focus {
+    color: var(--color-focus);
+}
+
+/* =============== HERO ===============*/
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.button {
+    background: var(--color-focus);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+}
+ 
+/* =============== advantage ===============*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantage-list-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform:uppercase;
+    color: var(--color-title);
+}
+
+.advantage-list-item-text{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+}
+
+
+/* =============== advantage ===============*/
+
+.team {
+   background: #F5F4FA; 
+}
+
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+}
+
+.team-list-item {
+    background: #ffffff;
+}
+
+.team-list-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-title);
+}
+
+.team-list-item-profession {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+
+/* =============== FOOTER ===============*/
+
+.footer {
+    background:  #2F303A;
+}
+
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+ 
+.map {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+ 
+/* =============== PORTFOLIO CATEGORIES ===============*/
+.list-categories-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-title);
+}
+
+.list-categories-text {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+.button-categories {
+    background: #F5F4FA;
+    color: #212121;
+
+}
+
+.button-categories:hover,
+.button-categories:focus {
+    color: #ffffff;
+    background: #2196F3;
+}
